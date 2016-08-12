@@ -123,7 +123,7 @@ end
       s = ""
       ## start tag
       s << "<select id=\"#{object}_#{method}\" name=\"#{object}[#{method}]\""
-      for key, val in html_options:
+      for key, val in html_options
           s << " #{key}=\"#{val}\""
       end
       s << ">\n"
